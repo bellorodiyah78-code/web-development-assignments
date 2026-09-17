@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fan-container {
+    text-align: center;
+}
+
+.fan {
+    font-size: 150px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.stand {
+    width: 20px;
+    height: 120px;
+    background-color: black;
+    margin: auto;
+}
+
+.base {
+    width: 120px;
+    height: 20px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+}
